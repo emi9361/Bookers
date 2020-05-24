@@ -1,0 +1,70 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*一覧ページ(投稿付)*/
+
+.index-page {
+	padding: 30px;
+  background-color: yellow;
+
+}
+table{
+  width: 80%;
+  display: table;
+  box-sizing: border-box;
+}
+
+table.th {
+  padding: 100px;
+}
+
+tbody{
+  text-align: center;
+}
+table.td {
+  padding: 100px;
+
+}
+
+
+/*サクセスページ*/
+
+.show_format{
+  padding: 30px;
+}
+
+h1{
+  color: #008080;
+}
+
+
+# /のhtml
+.update{
+	margin: 5px 0;
+}
+.item{
+	margin-top:
+
+}
+.item-show{
+   color: pink;
+}
+.item-back{
+   color: green;
+   margin-right: 10px;
+   padding-left: 5px;
+   border-left: 1px solid #a9a9a9 ;
+}
