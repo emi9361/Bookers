@@ -14,57 +14,173 @@ a {
   clear: both;
 }
 
-/*一覧ページ(投稿付)*/
-
-.index-page {
-	padding: 30px;
-  background-color: yellow;
-
-}
-table{
-  width: 80%;
-  display: table;
-  box-sizing: border-box;
-}
-
-table.th {
-  padding: 100px;
-}
-
-tbody{
-  text-align: center;
-}
-table.td {
-  padding: 100px;
-
-}
-
-
-/*サクセスページ*/
-
-.show_format{
-  padding: 30px;
-}
-
-h1{
-  color: #008080;
-}
-
-
-# /のhtml
+/*root*/
 .update{
-	margin: 5px 0;
-}
-.item{
-	margin-top:
-
+  margin: 5px 0;
 }
 .item-show{
    color: pink;
 }
 .item-back{
    color: green;
-   margin-right: 10px;
-   padding-left: 5px;
+   margin-right: 5px;
+   padding-left: 2px;
    border-left: 1px solid #a9a9a9 ;
+}
+
+
+/*TOP*/
+
+.top-item{
+  padding-top:30px;
+}
+.top-item-start{
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+/*一覧ページ(投稿付)*/
+
+body{
+  padding: 30px;
+  font-size: 15px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+table{
+  width: 60%;
+}
+
+tr.th {
+  padding: 100px;
+}
+
+tbody{
+  text-align: center;
+}
+.index-show, .index-edit, .index-destroy{
+  text-decoration-line: underline;
+  padding-right: 20px;
+}
+
+.td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration-line: underline;
+
+}
+.new_format{
+  padding-top: 30px;
+}
+
+.index_error_box{
+  width: 500px;
+  height: 150px;
+  margin: 10px 0;
+  border: 2px solid #e62c2c;
+  background-color: #b22222;
+}
+
+h2{
+  font-size: 13px;
+  color: #fff;
+  padding-left: 10px;
+  margin: 5px 0;
+}
+
+ul{
+  padding: 41px;
+  background-color: #f5f5f5;
+
+}
+
+.index_errors-msg{
+  font-size:13px;
+  padding-bottom: 3px;
+}
+
+.format-item{
+  margin:5px 0;
+}
+
+/*サクセスページ*/
+
+.show_format{
+  padding: 20px;
+}
+.show-item{
+  margin-bottom: 30px;
+}
+.show-item-link{
+  margin-top: 10px;
+}
+.show-item-link-edit{
+  float: left;
+  padding-right: 5px;
+  border-right: 1px solid #666666;
+  text-decoration-line: underline;
+}
+.show-item-link-back{
+  float: left;
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+h1{
+  color: #008080;
+}
+
+
+/*編集ページ*/
+
+.edit_format{
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.edit_error_box{
+  width: 500px;
+  height: 150px;
+  margin: 10px 0;
+  border: 2px solid #e62c2c;
+  background-color: #b22222;
+}
+
+h2{
+  font-size: 13px;
+  color: #fff;
+  padding-left: 10px;
+  margin: 5px 0;
+}
+
+ul{
+  padding: 41px;
+  background-color: #f5f5f5;
+
+}
+
+.edit_errors-msg{
+  font-size:13px;
+  padding-bottom: 3px;
+}
+
+.format-item{
+  margin:5px 0;
+}
+
+.edit-item{
+  margin-top: 10px;
+}
+
+.edit-item-show{
+  float: left;
+  padding-right: 5px;
+  border-right: 1px solid #666666;
+  text-decoration-line: underline;
+}
+
+.edit-item-back{
+  float: left;
+  padding-left: 5px;
+  text-decoration-line: underline;
 }

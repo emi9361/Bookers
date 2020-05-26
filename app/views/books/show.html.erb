@@ -1,16 +1,21 @@
 
 <main class ="show_format">
 
-	<h1>Book was successfully created.</h1>
+    <% if flash[:notice] %>
+	<p><%= flash[:notice ]%></p>
+	<% end %>
 
 
-	<p><b>Title:</b><%= @book.title %></p>
+	<p class = "show-item"><b>Title:</b><%= @book.title %></p>
 
-	<p><b>Body:</b><%= @book.body %></p>
+	<p class = "show-item"><b>Body:</b><%= @book.body %></p>
 
-<p class = "show-item">
-	<%= link_to "Edit", edit_book_path(@book.id) %>
-	<%= link_to "Back", books_path %>
-</p>
+<div class = "show-item-link">
+    <p class = "show-item-link-edit"><%= link_to "Edit", edit_book_path(@book.id) %>
+    </p>
+	<p class = "show-item-link-back"><%= link_to "Back", books_path %>
+	</p>
+</div>
 
 </main>
+
